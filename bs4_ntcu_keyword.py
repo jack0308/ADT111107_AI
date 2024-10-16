@@ -6,7 +6,7 @@ response = requests.get(url)
 response.encoding = "utf-8"
 soup = BeautifulSoup(response.text, 'html.parser')
 # 設定關鍵詞
-keyword = "國立臺中教育大學"  # 您可以根據需要更改關鍵詞
+keyword = "臺中"  # 您可以根據需要更改關鍵詞
 
 
 # 使用 stripped_strings 获取所有文本内容
